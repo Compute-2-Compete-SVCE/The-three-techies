@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Create Event</title>
+	<link rel="stylesheet" type="text/css" href="event.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link href="assets/img/tticon.jpeg" rel="icon">
+
+<body>
+	
+<div class="event-wrap">
+	<div class="event-html">
+		<input id="tab-1" type="radio" name="tab" class="sign-in">
+		<label for="tab-1" class="tab">Create Event</label>
+		<div class="event-form">
+			<div class="sign-in-htm">
+				<form action="/mail" method="post">
+
+				<div class="group">
+					<label for="user" class="label">Event Name</label>
+					<input id="user" name="eventname" type="text" class="input" required>
+				</div>
+				<div class="group">
+					<label for="categ" class="label">Category</label>
+					<input id="categ"  name="category" type="text" class="input" required>
+				</div>
+				<div class="group">
+					<label for="date" class="label">Date</label>
+					<input id="date"name="date" type="date" class="input" required>
+				</div>
+				<div class="group">
+					<label for="email" class="label">Email Address</label>
+					<input id="email" name="emailid" type="email" class="input" required>
+				</div>
+				<div class="group">
+					<label for="desc" class="label">Description</label>
+					<textarea id="desc"  name="description"rows="4" cols="50" class="input" required></textarea>
+				</div>
+				<div class="group">
+					<label for="loc" class="label">Location</label>
+					<input id="loc" name="loc" type="text" class="input" >
+				</div>
+				<br>
+                <div class="group">
+					<input type="submit" class="button" value="Create" >
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+				</div>
+				</form>
+				
+			</div>
+				
+				</div>
+				<div class="hr"></div>
+				<div class="foot-lnk">
+					
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+
+</html>

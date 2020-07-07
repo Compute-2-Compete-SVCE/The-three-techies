@@ -1,0 +1,96 @@
+body{
+	margin:0;
+	color:#fff;
+	background:#2ECC71;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+
+.event-wrap{
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:750px;
+	position:relative;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+
+.event-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:#010483;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+
+}
+.event-html .sign-in{
+	display: none;
+}
+.event-html .tab,
+.event-form .group .label,
+.event-form .group .button{
+	text-transform:uppercase;
+}
+.event-html.tab{
+	text-transform: uppercase;
+}
+.event-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+.event-html .sign-in +.tab,
+{
+	border-color:#1161ee;
+}
+
+.event-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+}
+.event-form .group .label,
+.event-form .group .input,
+.event-form .group .button{
+	width:100%;
+	color:#fff;
+	display:block;
+}
+.event-form .group .input,
+.event-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255,255,255,.1);
+}
+.event-form .group .label{
+	color:#aaa;
+	font-size:12px;}
+.event-form .group .button{
+	background:#1161ee;
+}
+.event-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.event-form .group{
+	margin-bottom:15px;
+}
+.event-html.sign-in.tab{
+    color: #fff;
+}

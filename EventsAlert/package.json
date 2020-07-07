@@ -1,0 +1,29 @@
+{
+  "name": "eventsalert",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this template!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^5.0.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "js-alert": "^1.0.4",
+    "jshint": "^2.11.1",
+    "mongoose": "^5.9.18",
+    "node-schedule": "^1.3.2",
+    "nodemailer": "^6.4.10",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1",
+    "popups": "^1.1.3",
+    "request": "^2.88.2",
+    "sweetalert": "^2.1.2"
+  }
+}
