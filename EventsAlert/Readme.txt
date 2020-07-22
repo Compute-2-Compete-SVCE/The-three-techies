@@ -8,7 +8,7 @@
 
                    Team Members
           1. Nivethitha A R, III year CSE
-          2. Khateejadhul Humaira M, II year CSE
+          2. Khadeejathul Humaira M.S, II year CSE
           3. Jagan S, I year CSE.
                                             
                  ABSTRACT
